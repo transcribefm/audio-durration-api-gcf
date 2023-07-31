@@ -1,0 +1,17 @@
+{
+  "name": "audio-durration-api-gcf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "functions-framework --target=getAudioDurationInSeconds",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ffprobe-installer/ffprobe": "^2.1.1",
+    "@google-cloud/functions-framework": "^3.3.0",
+    "node-ffprobe": "^3.0.0"
+  }
+}
